@@ -35,3 +35,6 @@ Eskiden react-navigation kurulumunda stack-tab-drawer kurulu geliyordu.Fakat ger
 kazanımı için ayrı ayrı kuruluma geçildi. <br/>
 
 "npm install @react-navigation/native-stack" ile sayfadan sayfaya geçiş işlemi yapabiliriz.
+
+
+Sayfalar arası veri transferi yapmak uygundur.Bunu props mantığıyla bir json obje formatında diğer sayfalara aktarabiliriz.Görüntülemek istediğimiz sayfada "props.route.params" ile yakalayıp görüntüleyebiliriz.
