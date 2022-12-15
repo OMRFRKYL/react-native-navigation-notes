@@ -36,5 +36,6 @@ kazanımı için ayrı ayrı kuruluma geçildi. <br/>
 
 "npm install @react-navigation/native-stack" ile sayfadan sayfaya geçiş işlemi yapabiliriz.
 
+Sayfalar arası geçiş yapmak içinde aynı şekilde props içerisinde gelen hazır func.lardan "props.navigation.navigate" ile geçiş yapabiliriz.Bir önceki sayfaya geri dönmek içinde "props.navigation.goBack()" func. kullanılabilir.
 
 Sayfalar arası veri transferi yapmak uygundur.Bunu props mantığıyla bir json obje formatında diğer sayfalara aktarabiliriz.Görüntülemek istediğimiz sayfada "props.route.params" ile yakalayıp görüntüleyebiliriz.
